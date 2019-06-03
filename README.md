@@ -1,8 +1,10 @@
 # NewsGrabber
 
-THIS IS STILL IN BETA
+This is now in PRODUCTION (ish!)
 
-An Archive Team project to save every news article from every newswebsite. The dashboard of this grab can be viewed here: http://newsgrabber.harrycross.me:29000 and historical lists of grabbed URLs can be seen here: http://newsgrabber.harrycross.me . The channel for NewsGrabber is #newsgrabber at irc.efnet.org .
+An Archive Team project to (try to) save every news article from every newswebsite. Utilising the Archive Team warrior's and tracking utilities (Dashboard of the grab is here: https://tracker.archiveteam.org/newsgrabber/). The channel for NewsGrabber is #newsgrabber at irc.efnet.org.
+
+Mothballed in 2018, NewsGrabber is BACK! Now with no more reliance on Python 2! The original wpull binary has now been replaced with wpull version 1.2.3 from the pip repository. In addition, it has been re-written enough to allow it to be run within a docker container in isolation. The docker version is the preffered option, as all features are working within it.
 
 How does this work?
 -------------------
